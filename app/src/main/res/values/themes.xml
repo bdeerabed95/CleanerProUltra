@@ -9,12 +9,11 @@
         <item name="colorOnSecondary">@android:color/white</item>
         <item name="android:statusBarColor">@color/galaxy_blue</item>
         <item name="android:navigationBarColor">@color/galaxy_bg</item>
-        <item name="android:windowBackground">@drawable/launcher_wallpaper</item>
+        <item name="android:windowBackground">@color/galaxy_bg</item>
     </style>
 
     <style name="Theme.CleanerProUltra.Splash" parent="Theme.CleanerProUltra">
-        <item name="android:windowBackground">@drawable/splash_background</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/galaxy_blue</item>
+        <item name="android:statusBarColor">@color/galaxy_blue</item>
     </style>
 </resources>

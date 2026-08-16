@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bdeer.cleanerproultra">
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.BATTERY_STATS" />
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
-    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" 
-        tools:ignore="ProtectedPermissions" />
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CleanerProUltra"
-        android:hardwareAccelerated="true"
-        android:largeHeap="true">
+        android:theme="@style/Theme.CleanerProUltra">
 
         <!-- Splash Screen -->
         <activity
@@ -42,33 +25,6 @@
         <activity android:name=".MainActivity" android:exported="false" />
         <activity android:name=".GalaxyUltraHomeActivity" android:exported="false" />
         <activity android:name=".GalaxyDeviceCareActivity" android:exported="false" />
-        <activity android:name=".GalaxyUltraSettingsActivity" android:exported="false" />
-        
-        <!-- AI Activities -->
-        <activity android:name=".GalaxyAIAssistant" android:exported="false" />
-        <activity android:name=".GalaxyAIChatbotActivity" android:exported="false" />
-        <activity android:name=".GalaxyAIVoiceActivity" android:exported="false" />
-        
-        <!-- System Activities -->
-        <activity android:name=".GalaxyUltraSystemMonitorActivity" android:exported="false" />
-        <activity android:name=".GalaxySystemOptimizerActivity" android:exported="false" />
-        
-        <!-- Pro Features -->
-        <activity android:name=".GalaxyUltraLockScreenProActivity" android:exported="false" />
-        <activity android:name=".GalaxyUltraAODProActivity" android:exported="false" />
-        <activity android:name=".GalaxyUltraControlCenterProActivity" android:exported="false" />
-        <activity android:name=".GalaxyUltraLauncherActivity" android:exported="false" />
-
-        <!-- Services -->
-        <service android:name=".services.UltraOptimizationService" android:exported="false" />
-        <service android:name=".services.SystemMonitorService" android:exported="false" />
-        
-        <!-- Receivers -->
-        <receiver android:name=".receivers.BootReceiver" android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
 
     </application>
 

@@ -6,11 +6,6 @@
     <color name="galaxy_accent_dark">#00B8D4</color>
     <color name="galaxy_bg">#F5F6F7</color>
     <color name="galaxy_text">#333333</color>
-    <color name="galaxy_text_secondary">#666666</color>
     <color name="galaxy_white">#FFFFFF</color>
     <color name="galaxy_black">#000000</color>
-    <color name="galaxy_red">#F44336</color>
-    <color name="galaxy_green">#4CAF50</color>
-    <color name="galaxy_orange">#FF9800</color>
-    <color name="galaxy_purple">#9C27B0</color>
 </resources>
