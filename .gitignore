@@ -1,0 +1,32 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+*.iml
+
+# IDE
+.idea/
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+
+# Android
+/captures
+.externalNativeBuild
+.cxx/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+/app/release/
+
+# Logs
+*.log
+
+# Keystore files
+*.jks
+*.keystore

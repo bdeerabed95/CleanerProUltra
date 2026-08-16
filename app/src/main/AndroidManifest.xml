@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.samsung.cleaner.pro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cleaner Pro Ultra"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CleanerProUltra">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OptimizeActivity" />
+        <activity android:name=".CleanerDashboardActivity" />
+        <activity android:name=".SystemBoostActivity" />
+        <activity android:name=".SystemStatsActivity" />
+        <activity android:name=".AIOptimizerActivity" />
+        <activity android:name=".AIAutoCleanerActivity" />
+
+        <activity android:name=".DeviceShieldActivity" />
+        <activity android:name=".PrivacyActivity" />
+        <activity android:name=".MalwareActivity" />
+        <activity android:name=".NetworkActivity" />
+        <activity android:name=".OnlineScanActivity" />
+
+        <activity android:name=".GameBoosterActivity" />
+        <activity android:name=".MonitorActivity" />
+
+        <activity android:name=".AppManagerActivity" />
+        <activity android:name=".FileManagerActivity" />
+        <activity android:name=".StorageManagerActivity" />
+
+        <activity android:name=".PhotoCleanerActivity" />
+
+    </application>
+
+</manifest>
