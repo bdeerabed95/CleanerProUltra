@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.CleanerProUltra" parent="Theme.Material3.DayNight">
-        <item name="colorPrimary">#2196F3</item>
-        <item name="colorPrimaryVariant">#1976D2</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
+    <!-- Base application theme -->
+    <style name="Theme.CleanerProUltra" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/galaxy_blue</item>
+        <item name="colorPrimaryVariant">@color/galaxy_blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/galaxy_accent</item>
+        <item name="colorSecondaryVariant">@color/galaxy_accent_dark</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor">@color/galaxy_blue</item>
+        <item name="android:navigationBarColor">@color/galaxy_bg</item>
+        <item name="android:windowBackground">@color/galaxy_bg</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.CleanerProUltra.Splash" parent="Theme.CleanerProUltra">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 </resources>
