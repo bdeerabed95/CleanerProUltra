@@ -1,4 +1,4 @@
-package com.samsung.cleaner.pro
+package com.bdeer.cleanerproultra
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

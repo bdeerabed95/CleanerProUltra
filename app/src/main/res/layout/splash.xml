@@ -4,22 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/galaxy_blue">
+    android:background="#1E88E5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Galaxy Ultra OS"
         android:textSize="32sp"
-        android:textStyle="bold"
-        android:textColor="@color/galaxy_white" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Cleaner Pro Ultra"
-        android:textSize="16sp"
-        android:textColor="@color/galaxy_white" />
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
 </LinearLayout>
