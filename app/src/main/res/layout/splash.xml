@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- صورة الخلفية -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/launcher_wallpaper"
+        android:scaleType="centerCrop" />
+
+    <!-- طبقة تظليل -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <!-- المحتوى -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- شعار التطبيق -->
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/launcher_wallpaper"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circular_bg" />
+
+        <!-- عنوان التطبيق -->
+        <TextView
+            android:id="@+id/splashTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galaxy Ultra OS"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0.1" />
+
+        <!-- شعار فرعي -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cleaner Pro Ultra"
+            android:textSize="16sp"
+            android:textColor="#CCCCCC"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- مؤشر التحميل -->
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:indeterminateTint="#FFFFFF" />
+
+</RelativeLayout>

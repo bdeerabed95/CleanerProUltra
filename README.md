@@ -30,3 +30,15 @@
 
 ```bash
 cat > build.sh << 'EOF'
+
+## 📸 لقطات الشاشة
+
+### الشاشة الرئيسية
+![Galaxy Ultra OS Home Screen](screenshots/home_screen.png)
+
+### المميزات البصرية
+- **خلفية HD عالية الدقة (1408x768)**
+- **تأثيرات شفافية وطبقات**
+- **تصميم Galaxy-inspired**
+- **Splash Screen احترافي مع أنيميشن**
+
