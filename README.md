@@ -42,3 +42,25 @@ cat > build.sh << 'EOF'
 - **تصميم Galaxy-inspired**
 - **Splash Screen احترافي مع أنيميشن**
 
+
+## 📥 Download
+
+### Latest Release
+[![Download APK](https://img.shields.io/badge/Download-APK-blue)](https://github.com/bdeerabed95/CleanerProUltra/releases/latest)
+
+### Build Status
+![Build Status](https://github.com/bdeerabed95/CleanerProUltra/actions/workflows/build-apk.yml/badge.svg)
+
+## 🏗️ Built With
+
+- [Kotlin](https://kotlinlang.org/) - Programming language
+- [Gradle](https://gradle.org/) - Build tool
+- [GitHub Actions](https://github.com/features/actions) - CI/CD
+- [Android SDK](https://developer.android.com/) - Development kit
+
+## 📊 Project Stats
+
+![GitHub stars](https://img.shields.io/github/stars/bdeerabed95/CleanerProUltra?style=social)
+![GitHub forks](https://img.shields.io/github/forks/bdeerabed95/CleanerProUltra?style=social)
+![GitHub issues](https://img.shields.io/github/issues/bdeerabed95/CleanerProUltra)
+![GitHub license](https://img.shields.io/github/license/bdeerabed95/CleanerProUltra)
